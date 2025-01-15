@@ -2,7 +2,6 @@
 
 import { signIn } from "next-auth/react"
 import { useSearchParams } from "next/navigation"
-import LoginGoogle from "./LoginGoogle"
 
 export default function LoginForm() {
   const searchParams = useSearchParams()
